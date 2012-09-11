@@ -38,7 +38,6 @@ h1 {
    bottom: 460px;
   padding-left: 20px;
   width: 822px;
-
 }
 
 #aboutUsText
@@ -49,6 +48,10 @@ h1 {
   bottom: 590px;
   display: block;
   color: #474447;
+}
+
+#aboutUsText p {
+  margin-bottom: 20px;
 }
 
 #aboutUsText h1 {
