@@ -33,7 +33,6 @@ html, body {
 
 #introPanel div {
   margin-top: 15px;
-  margin-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -42,6 +41,41 @@ html, body {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+
+/* TEXT */
+h1 { 
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+
+/* PANELS */
+
+.infoPanel {
+  width: 832px;
+  height: 444px;
+  text-align: left;
+  position: relative;
+}
+
+.infoPanel.car {
+  background:#f5f5f5 url("img/car.png") no-repeat top center;
+}
+
+.infoPanel .contentText {
+    bottom: 14px;
+    position: absolute;
+    padding: 20px;
+    padding-right: 160px;
+    font-size: 19px;
+}
+
+.infoPanel .contentText p {
+  margin-top: 0px;
 }
 
 
@@ -67,13 +101,15 @@ a.menuLink:visited {color:#7b7e82;}
 a.menuLink:hover {color:#000;}
 
 .menu {
-  padding-top: 5px;
-  padding-right: 20px;
-  float: right;
+  width: 100px;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  margin-left: -321px;
+  padding-top: 3px;
 }
 
 .menuHeaderText p {
-  padding-left: 20px;
   padding-top: 0px;
   padding-bottom: 10px;
   margin: 0px;
@@ -82,6 +118,9 @@ a.menuLink:hover {color:#000;}
 
 .menuHeaderText{
   float: left;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 4px;
 }
 
 .menuHeaderText p {
@@ -130,12 +169,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
  
 /*
-h1 { 
-  font-family: 'Didact Gothic', sans-serif;
-  font-size: 48px;
-  font-weight: normal;
-  margin: 0px;
-}
+
 
 #topString {
    height: 102px;
